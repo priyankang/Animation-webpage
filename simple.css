@@ -1,0 +1,29 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.single-card-1{
+    width:150px;
+}
+
+
+
+.single-card-1:hover {
+    margin-top: 20px;
+    
+    
+}
+.p-img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+#showDecard {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    border: 2px solid black;
+   
+}
