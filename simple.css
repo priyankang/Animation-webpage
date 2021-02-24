@@ -21,12 +21,7 @@
     animation-duration: 2s;
    
 }
-.stack{
-    /* margin-top: 300px; */
-    /* background-color: brown; */
-    /* z-index: -1; */
-    /* position: absolute;  */
-}
+
 .stack img:hover{
     transform: rotate(18deg);
 }
