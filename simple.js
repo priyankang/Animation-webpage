@@ -14,9 +14,10 @@ function diisplayMultipleCards() {
   if (x.style.display === "none") {
     x.style.display = "block";
     x.style.display = "flex";
-  } else {
-    x.style.display = "none";
-  }
+  } 
+  // else {
+  //   x.style.display = "none";
+  // }
 }
 function showOnHower(id) {
   var data = {
@@ -26,7 +27,7 @@ function showOnHower(id) {
     },
     'single-2': {
       text: 'How you feel about yourself',
-      img:'nature.jpg'
+      img:'nature.jpg' 
 
     },
     'single-3': {

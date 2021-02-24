@@ -3,16 +3,53 @@
     margin: 0px;
     padding: 0px;
 }
+.book-1{
+    margin-top:50px;
+    transition: transform 2s;
+    
+}
+.book-1:hover{
+    transform: scale(1.2,1.2);
+    
+}
 
-.single-card-1{
-    width:150px;
+.stack-1{
+    position: absolute;
+    display: flex;
+    box-shadow:  2px rgba(0,0,0,0.3);
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+}
+.stack{
+    /* margin-top: 300px; */
+    /* background-color: brown; */
+    /* z-index: -1; */
+    /* position: absolute;  */
+}
+.stack img:hover{
+    transform: rotate(18deg);
 }
 
 
 
+.single-card-1{
+    width:120px;
+   
+
+}
+.multi-card {
+    display: flex;
+}
+
+
 .single-card-1:hover {
     margin-top: 20px;
-    
+    position: relative;
+    animation: myframes 2s ease-in 0s;
+}
+@keyframes myframes{
+    from{width:200px;}
     
 }
 .p-img {
@@ -27,3 +64,4 @@
     border: 2px solid black;
    
 }
+
